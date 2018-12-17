@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78FF65F8-796A-4677-A71E-DE9DFA1F2221}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventorySuite</RootNamespace>
+    <AssemblyName>InventorySuite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DGVPrinter.cs" />
+    <Compile Include="Export.cs" />
+    <Compile Include="frm_MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MainDashboard.Designer.cs">
+      <DependentUpon>frm_MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\DBActions.cs" />
+    <Compile Include="General\frm_UserEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\frm_UserEdit.Designer.cs">
+      <DependentUpon>frm_UserEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\frm_UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\frm_UserLogin.Designer.cs">
+      <DependentUpon>frm_UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\frm_UsersAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\frm_UsersAdd.Designer.cs">
+      <DependentUpon>frm_UsersAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\Users.cs" />
+    <Compile Include="General\UsersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General\UsersView.Designer.cs">
+      <DependentUpon>UsersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_AddProductGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_AddProductGroup.Designer.cs">
+      <DependentUpon>frm_AddProductGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_EditProductGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_EditProductGroup.Designer.cs">
+      <DependentUpon>frm_EditProductGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_ProductGroupView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\frm_ProductGroupView.Designer.cs">
+      <DependentUpon>frm_ProductGroupView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\ProductGroup\ProductGroup.cs" />
+    <Compile Include="Inventory\Masters\Products\frm_AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\frm_AddProduct.Designer.cs">
+      <DependentUpon>frm_AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\frm_EditProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\frm_EditProduct.Designer.cs">
+      <DependentUpon>frm_EditProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\frm_Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\frm_Products.Designer.cs">
+      <DependentUpon>frm_Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Masters\Products\ProductView.cs" />
+    <Compile Include="Inventory\Reports\frmSrockLedgerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frmSrockLedgerReport.Designer.cs">
+      <DependentUpon>frmSrockLedgerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\frmTransRegisterReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frmTransRegisterReport.Designer.cs">
+      <DependentUpon>frmTransRegisterReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockLedgerReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockLedgerReportView.Designer.cs">
+      <DependentUpon>frm_StockLedgerReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockReportASonDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockReportASonDate.Designer.cs">
+      <DependentUpon>frm_StockReportASonDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_StockReportView.Designer.cs">
+      <DependentUpon>frm_StockReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_TransReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_TransReportView.Designer.cs">
+      <DependentUpon>frm_TransReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\ItemWiseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\ItemWiseReport.Designer.cs">
+      <DependentUpon>ItemWiseReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\ItemWiseReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\ItemWiseReportView.Designer.cs">
+      <DependentUpon>ItemWiseReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\Rports.cs" />
+    <Compile Include="Inventory\Reports\frm_TransactionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\frm_TransactionReport.Designer.cs">
+      <DependentUpon>frm_TransactionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Reports\TransRegisterReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Reports\TransRegisterReportView.Designer.cs">
+      <DependentUpon>TransRegisterReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Transactions\frm_Transactions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Transactions\frm_Transactions.Designer.cs">
+      <DependentUpon>frm_Transactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Transactions\transactiondetails.cs" />
+    <Compile Include="Inventory\Transactions\transactionmaster.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_MainDashboard.resx">
+      <DependentUpon>frm_MainDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\frm_UserEdit.resx">
+      <DependentUpon>frm_UserEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\frm_UserLogin.resx">
+      <DependentUpon>frm_UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\frm_UsersAdd.resx">
+      <DependentUpon>frm_UsersAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\UsersView.resx">
+      <DependentUpon>UsersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\ProductGroup\frm_AddProductGroup.resx">
+      <DependentUpon>frm_AddProductGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\ProductGroup\frm_EditProductGroup.resx">
+      <DependentUpon>frm_EditProductGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\ProductGroup\frm_ProductGroupView.resx">
+      <DependentUpon>frm_ProductGroupView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\Products\frm_AddProduct.resx">
+      <DependentUpon>frm_AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\Products\frm_EditProduct.resx">
+      <DependentUpon>frm_EditProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Masters\Products\frm_Products.resx">
+      <DependentUpon>frm_Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frmSrockLedgerReport.resx">
+      <DependentUpon>frmSrockLedgerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frmTransRegisterReport.resx">
+      <DependentUpon>frmTransRegisterReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frm_StockLedgerReportView.resx">
+      <DependentUpon>frm_StockLedgerReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frm_StockReportASonDate.resx">
+      <DependentUpon>frm_StockReportASonDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frm_StockReportView.resx">
+      <DependentUpon>frm_StockReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frm_TransReportView.resx">
+      <DependentUpon>frm_TransReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\frm_TransactionReport.resx">
+      <DependentUpon>frm_TransactionReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\ItemWiseReport.resx">
+      <DependentUpon>ItemWiseReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\ItemWiseReportView.resx">
+      <DependentUpon>ItemWiseReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Reports\TransRegisterReportView.resx">
+      <DependentUpon>TransRegisterReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Transactions\frm_Transactions.resx">
+      <DependentUpon>frm_Transactions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clinton spring 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_login_54230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Add_27831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_pencil_2003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Pencil3_34236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-sign-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Remove_27874.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\symbol_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_floppy_285657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_denied_1055074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_Log Out_27856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_gtk-refresh_48111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_text-x-log_24979.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_files-folders-52_808605.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_arrow-up-01_186407.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_arrow-down-01_186411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_logo_brand_brands_logos_excel_2993694.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_file_extension_pdf_64239.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

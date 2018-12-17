@@ -1,0 +1,87 @@
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\bin\Debug\InventorySuite.exe
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\bin\Debug\InventorySuite.pdb
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csprojResolveAssemblyReference.cache
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.frm_MainDashboard.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.UsersView.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.frm_Products.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Properties.Resources.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csproj.GenerateResource.Cache
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.exe
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.pdb
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_AddProduct.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_AddProductGroup.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.Purchase.frm_PurchaseReturnSummary.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.Purchase.frm_PurchaseReturnSummaryView.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.Purchase.frm_PurchaseSummary.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.Purchase.frm_PurchaseSummaryView.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserLogin.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UsersAdd.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserEdit.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_EditProduct.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_EditProductGroup.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_ProductGroupView.resources
+F:\my visual studio projects\InventorySuite\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Transactions.frm_Transactions.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csproj.ResolveComReference.cache
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\bin\Debug\InventorySuite.exe
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\bin\Debug\InventorySuite.pdb
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\bin\Debug\itextsharp.dll
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\bin\Debug\itextsharp.xml
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.frm_MainDashboard.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserEdit.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserLogin.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UsersAdd.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.UsersView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_AddProductGroup.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_EditProductGroup.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_ProductGroupView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_AddProduct.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_EditProduct.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.frm_Products.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockReportASonDate.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockReportView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_TransReportView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.TransactionReport.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Transactions.frm_Transactions.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Properties.Resources.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.exe
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.pdb
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.ItemWiseReport.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmItemWiseReportView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmSrockLedgerReport.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockLedgerReportView.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmTransRegisterReport.resources
+C:\Users\HP\Desktop\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.TransRegisterReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csproj.ResolveComReference.cache
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.exe
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.pdb
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\bin\Debug\InventorySuite.exe
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\bin\Debug\InventorySuite.pdb
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\bin\Debug\itextsharp.dll
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\bin\Debug\itextsharp.xml
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csprojResolveAssemblyReference.cache
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.frm_MainDashboard.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserEdit.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UserLogin.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.frm_UsersAdd.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.General.UsersView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_AddProductGroup.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_EditProductGroup.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.ProductGroup.frm_ProductGroupView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_AddProduct.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.Products.frm_EditProduct.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Masters.frm_Products.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmSrockLedgerReport.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmTransRegisterReport.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockLedgerReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockReportASonDate.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_StockReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frm_TransReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.TransactionReport.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.ItemWiseReport.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.frmItemWiseReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Reports.TransRegisterReportView.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Inventory.Transactions.frm_Transactions.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.Properties.Resources.resources
+F:\c#\c# projects\Inventory Managment\InventorySuite\InventorySuite\obj\Debug\InventorySuite.csproj.GenerateResource.Cache
